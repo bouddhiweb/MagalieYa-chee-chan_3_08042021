@@ -18,6 +18,7 @@ h1 {
 
 figure, h3 {
   margin: 0;
+  padding-bottom: 10px;
 }
 
 /* Colors variables - couleur primaire, secondaire, tertiaire... */
@@ -127,6 +128,23 @@ figure, h3 {
 }
 .restaurants figcaption {
   padding: 1rem;
+  display: flex;
+}
+.restaurants__content {
+  flex: 1;
+}
+.restaurants__btn {
+  height: 2rem;
+  width: 2rem;
+  background-color: transparent;
+  border: 0 solid transparent;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  background-color: #000;
 }
 
 .footer {

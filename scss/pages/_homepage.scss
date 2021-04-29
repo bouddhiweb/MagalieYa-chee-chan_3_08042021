@@ -105,5 +105,22 @@
   }
   figcaption {
     padding: 1rem;
+    display: flex;
+  }
+  &__content {
+    flex: 1;
+  }
+  &__btn {
+    height: 2rem;
+    width: 2rem;
+    background-color: transparent;
+    border: 0 solid transparent;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    background-color: #000;
   }
 }

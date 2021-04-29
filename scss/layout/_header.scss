@@ -1,6 +1,7 @@
 .header {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: $spacing;
   box-shadow: 0 0 0.5rem grey;
   z-index: 1000;
@@ -8,5 +9,11 @@
   &__logo {
     margin: 0;
     text-align: center;
+  }
+  &__arrow {
+    position: absolute;
+    left: 2rem;
+    width: 2rem;
+    font-size: 1.5em;
   }
 }

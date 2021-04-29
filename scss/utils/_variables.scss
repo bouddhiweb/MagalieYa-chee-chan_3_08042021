@@ -1,0 +1,24 @@
+/* Colors variables - couleur primaire, secondaire, tertiaire... */
+
+$colour-primary: #9356DC;
+$colour-secondary: #FF79DA;
+$colour-accent: #99E2D0;
+$colour-white: #fff;
+
+$colour-bg-darker: #353535;
+$colour-bg-dark: #EAEAEA;
+$colour-bg-light: #F6F6F6;
+
+$heading-shadow-size: .55rem;
+
+$spacing: 15px 0 15px 0;
+$spacing-block: 1.5rem;
+
+$breakpoints: (
+        "mobile": 576px,
+        "tablet": 768px,
+        "desktop-s": 992px,
+        "desktop-m": 1200px,
+);
+
+

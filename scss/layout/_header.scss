@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: $spacing;
+  box-shadow: 0 0 0.5rem grey;
+  z-index: 1000;
+  position: relative;
+  &__logo {
+    margin: 0;
+    text-align: center;
+  }
+}

@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Shrikhand", cursive;
+  font-weight: 100;
+  font-size: 2.5em;
+}
+
+/* Colors variables - couleur primaire, secondaire, tertiaire... */
+.location {
+  background-color: #EAEAEA;
+  padding: 15px 0 15px 0;
+  text-align: center;
+  font-weight: 400;
+}
+
+.introduction {
+  background-color: #F6F6F6;
+  padding: 1.5rem;
+  text-align: center;
+}
+.introduction__subtitle {
+  margin: 1.5rem 0;
+  font-weight: 300;
+}
+.introduction__btn {
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border-radius: 100px;
+  color: #fff;
+  background-image: linear-gradient(0deg, #9356DC, #FF79DA);
+  cursor: pointer;
+}
+
+.tutorial {
+  padding: 1.5rem;
+  max-width: 1280px;
+  margin: auto;
+  position: relative;
+}
+.tutorial__steps {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: steps-list;
+}
+.tutorial__step {
+  counter-increment: steps-list;
+  padding: 1.5rem;
+  margin: 1rem 0 1rem 0.75rem;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.13);
+  border-radius: 1.25rem;
+  background-color: #f6f6f6;
+  display: flex;
+  position: relative;
+}
+.tutorial__step:before {
+  content: counter(steps-list);
+  background: #9356dc;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: absolute;
+  left: -0.75rem;
+}
+.tutorial__icon {
+  margin-right: 1rem;
+  color: #7e7e7e;
+}
+
+.restaurants {
+  background-color: #F6F6F6;
+  padding: 1.5rem;
+  margin: auto;
+  position: relative;
+}
+.restaurants__cards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+.restaurants__card {
+  background-color: #fff;
+  border-radius: 1rem;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.restaurants__img {
+  height: 12rem;
+  width: 100%;
+  border: 0 solid transparent;
+  border-radius: 1rem 1rem 0 0;
+  box-shadow: none;
+  object-fit: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0 15px 0;
+  box-shadow: 0 0 0.5rem grey;
+  z-index: 1000;
+  position: relative;
+}
+.header__logo {
+  margin: 0;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

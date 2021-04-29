@@ -1,3 +1,3 @@
-@mixin heading-shadow($colour:$colour-bg-dark, $size: $heading-shadow-size){
-  text-shadow: $size $size darken($colour, 10%);
+@mixin shadow($colour:$colour-bg-dark, $size: $shadow-size){
+  box-shadow: 0.25rem 0.25rem 10px darken($colour, 10%);
 }

@@ -94,4 +94,16 @@
     box-shadow: none;
     object-fit: cover;
   }
+  &__badge {
+    background-color: #99e2d0;
+    color: #1b6150;
+    padding: .5rem;
+    border-radius: .125rem;
+    position: absolute;
+    top: 1rem;
+    right: .75rem;
+  }
+  figcaption {
+    padding: 1rem;
+  }
 }

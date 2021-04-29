@@ -16,6 +16,10 @@ h1 {
   font-size: 2.5em;
 }
 
+figure, h3 {
+  margin: 0;
+}
+
 /* Colors variables - couleur primaire, secondaire, tertiaire... */
 .location {
   background-color: #EAEAEA;
@@ -111,6 +115,18 @@ h1 {
   border-radius: 1rem 1rem 0 0;
   box-shadow: none;
   object-fit: cover;
+}
+.restaurants__badge {
+  background-color: #99e2d0;
+  color: #1b6150;
+  padding: 0.5rem;
+  border-radius: 0.125rem;
+  position: absolute;
+  top: 1rem;
+  right: 0.75rem;
+}
+.restaurants figcaption {
+  padding: 1rem;
 }
 
 .header {

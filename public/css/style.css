@@ -129,6 +129,32 @@ figure, h3 {
   padding: 1rem;
 }
 
+.footer {
+  background-color: #353535;
+  color: #fff;
+  padding: 1.5rem;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer__logo {
+  margin: 0;
+  font-family: "Shrikhand", cursive;
+  font-weight: 100;
+  font-size: 1.5em;
+  padding-bottom: 20px;
+}
+.footer__nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer__icon {
+  width: 1.2rem;
+  margin-right: 0.5rem;
+}
+
 .header {
   display: flex;
   justify-content: center;

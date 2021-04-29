@@ -12,11 +12,20 @@
     font-weight: 100;
     font-size: 1.5em;
     padding-bottom: 20px;
+    @media (min-width: map-get($breakpoints, tablet)) {
+      text-align: center;
+      font-size: 2.5em;
+    }
   }
   &__nav {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: space-around;
+    @media (max-width: map-get($breakpoints, mobile)) {
+      display: block;
+    }
   }
   &__icon {
     width: 1.2rem;

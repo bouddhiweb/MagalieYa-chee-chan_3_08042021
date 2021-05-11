@@ -1,0 +1,178 @@
+
+@keyframes itemAppear {
+  0% {
+    transform: scale(0)
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes loader {
+  0% {
+  opacity: 1;
+}
+  100% {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+
+@keyframes animate-top-bun {
+  0% {
+    transform: scale(0) translate(5px, 0px);
+  }
+  53% {
+    transform: scale(0) translate(5px, 0px);
+  }
+  58% {
+    transform: scale(1.05) translate(5px, 0px);
+  }
+  59% {
+    transform: scale(1.0) translate(5px, 0px);
+  }
+  100% {
+    transform: scale(1.0) translate(5px, 0px);
+  }
+}
+
+@keyframes animate-pickle-2 {
+  0% {
+    transform: scale(0) translate(100px, 50px) rotate(15deg);
+  }
+  42% {
+    transform: scale(0) translate(100px, 50px) rotate(15deg);
+  }
+  47% {
+    transform: scale(1.05) translate(100px, 50px) rotate(15deg);
+  }
+  48% {
+    transform: scale(1.0) translate(100px, 50px) rotate(15deg);
+  }
+  100% {
+    transform: scale(1.0) translate(100px, 50px) rotate(15deg);
+  }
+}
+
+@keyframes animate-pickle-1 {
+  0% {
+    transform: scale(0) translate(30px, 50px) rotate(-10deg);
+  }
+  36% {
+    transform: scale(0) translate(30px, 50px) rotate(-10deg);
+  }
+  41% {
+    transform: scale(1.05) translate(30px, 50px) rotate(-10deg);
+  }
+  42% {
+    transform: scale(1.0) translate(30px, 50px) rotate(-10deg);
+  }
+  100% {
+    transform: scale(1.0) translate(30px, 50px) rotate(-10deg);
+  }
+}
+
+@keyframes animate-tomato-2 {
+  0% {
+    transform: scale(0) translate(20px, 50px) rotate(-10deg);
+  }
+  30% {
+    transform: scale(0) translate(20px, 50px) rotate(-10deg);
+  }
+  35% {
+    transform: scale(1.05) translate(20px, 50px) rotate(-10deg);
+  }
+  36% {
+    transform: scale(1.0) translate(20px, 50px) rotate(-10deg);
+  }
+  100% {
+    transform: scale(1.0) translate(20px, 50px) rotate(-10deg);
+  }
+}
+
+@keyframes animate-tomato-1 {
+  0% {
+    transform: scale(0) translate(90px, 55px);
+  }
+  24% {
+    transform: scale(0) translate(90px, 55px);
+  }
+  29% {
+    transform: scale(1.05) translate(90px, 55px);
+  }
+  30% {
+    transform: scale(1.0) translate(90px, 55px);
+  }
+  100% {
+    transform: scale(1.0) translate(90px, 55px);
+  }
+}
+
+@keyframes animate-cheese-1 {
+  0% {
+    transform: scale(0) skewx(-20deg) translate(50px, 55px);
+  }
+  18% {
+    transform: scale(0) skewx(-20deg) translate(50px, 55px);
+  }
+  23% {
+    transform: scale(1.05) skewx(-20deg) translate(50px, 55px);
+  }
+  24% {
+    transform: scale(1.0) skewx(-20deg) translate(50px, 55px);
+  }
+  100% {
+    transform: scale(1.0) skewx(-20deg) translate(50px, 55px);
+  }
+}
+
+@keyframes animate-cheese-2 {
+  0% {
+    transform: scale(0) skewx(20deg) translate(40px, 65px) rotate(-10deg);
+  }
+  12% {
+    transform: scale(0) skewx(20deg) translate(40px, 65px) rotate(-10deg);
+  }
+  17% {
+    transform: scale(1.05) skewx(20deg) translate(40px, 65px) rotate(-10deg);
+  }
+  18% {
+    transform: scale(1.0) skewx(20deg) translate(40px, 65px) rotate(-10deg);
+  }
+  100% {
+    transform: scale(1.0) skewx(20deg) translate(40px, 65px) rotate(-10deg);
+  }
+}
+
+@keyframes animate-beef {
+  0% {
+    transform: scale(0) translate(0px, 55px);
+  }
+  6% {
+    transform: scale(0) translate(0px, 55px);
+  }
+  11% {
+    transform: scale(1.05) translate(0px, 55px);
+  }
+  12% {
+    transform: scale(1.0) translate(0px, 55px);
+  }
+  100% {
+    transform: scale(1.0) translate(0px, 55px);
+  }
+}
+
+@keyframes animate-bottom-bun {
+  0% {
+    transform: scale(0) translate(5px, 85px);
+  }
+  5% {
+    transform: scale(1.05) translate(5px, 85px);
+  }
+  6% {
+    transform: scale(1.0) translate(5px, 85px);
+  }
+  100% {
+    transform: scale(1.0) translate(5px, 85px);
+  }
+}

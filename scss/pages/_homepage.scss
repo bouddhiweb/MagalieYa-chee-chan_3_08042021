@@ -58,6 +58,9 @@
   }
   &__step:hover {
     background-color: lighten($colour-primary, 30%);
+    i {
+      color: $colour-primary;
+    }
   }
 }
 

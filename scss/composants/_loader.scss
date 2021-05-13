@@ -1,5 +1,34 @@
 /* Style des élements du loader */
 
+.loader {
+  position: fixed;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.90);
+  animation: loader 0.05s;
+  animation-delay: 3s;
+  animation-fill-mode: both;
+  z-index: 10000;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  &__txt {
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Shrikhand', cursive;
+    color: white;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+  }
+}
+
 /* Hamburger */
 
 .hamburger {
@@ -12,42 +41,42 @@
 
   div:nth-child(2) {
     z-index: 8;
-    animation: animate-pickle-1 12s infinite;
+    animation: animate-pickle-1 $loader-duration infinite;
   }
 
   div:nth-child(3) {
     z-index: 7;
-    animation: animate-pickle-2 12s infinite;
+    animation: animate-pickle-2 $loader-duration infinite;
   }
 
   div:nth-child(4) {
     z-index: 5;
-    animation: animate-tomato-1 12s infinite;
+    animation: animate-tomato-1 $loader-duration infinite;
   }
 
   div:nth-child(5) {
     z-index: 6;
-    animation: animate-tomato-2 12s infinite;
+    animation: animate-tomato-2 $loader-duration infinite;
   }
 
   div:nth-child(6) {
     z-index: 4;
-    animation: animate-cheese-1 12s infinite;
+    animation: animate-cheese-1 $loader-duration infinite;
   }
 
   div:nth-child(7) {
     z-index: 3;
-    animation: animate-cheese-2 12s infinite;
+    animation: animate-cheese-2 $loader-duration infinite;
   }
 
   div:nth-child(8) {
     z-index: 2;
-    animation: animate-beef 12s infinite;
+    animation: animate-beef $loader-duration infinite;
   }
 
   div:nth-child(9) {
     z-index: 1;
-    animation: animate-bottom-bun 12s infinite;
+    animation: animate-bottom-bun $loader-duration infinite;
   }
 }
 
@@ -61,7 +90,7 @@
   background-color: #e38f49;
   border-radius: 70% 70% 45% 45%;
   transform: translate(0px, -80px);
-  animation: animate-top-bun 5s infinite;
+  animation: animate-top-bun $loader-duration infinite;
   &:before, &:after {
     position: absolute;
     content: '';

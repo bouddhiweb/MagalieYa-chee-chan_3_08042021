@@ -1,12 +1,81 @@
 
 @keyframes itemAppear {
   0% {
-    transform: scale(0)
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: .5%;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 100%;
+  }
+}
+
+@keyframes rotate {
+  from{
+    -webkit-transform: rotate(0deg);
+  }
+  to{
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+// Coeurs
+
+@keyframes animateHeart {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.3);
   }
   100% {
     transform: scale(1);
   }
 }
+
+// Apparition progressive
+
+.delay-1 {
+  animation-delay: .1s;
+}
+
+.delay-2 {
+  animation-delay: .2s;
+}
+
+.delay-3 {
+  animation-delay: .3s;
+}
+
+.delay-4 {
+  animation-delay: .4s;
+}
+
+.delay-5 {
+  animation-delay: .5s;
+}
+
+.delay-6 {
+  animation-delay: .6s;
+}
+
+.delay-7 {
+  animation-delay: .7s;
+}
+
+.delay-8 {
+  animation-delay: .8s;
+}
+
+.delay-9 {
+  animation-delay: .9s;
+}
+
+
+//Loader
 
 @keyframes loader {
   0% {
@@ -18,6 +87,7 @@
   }
 }
 
+// Start : 53%
 @keyframes animate-top-bun {
   0% {
     transform: scale(0) translate(5px, 0px);
@@ -36,6 +106,7 @@
   }
 }
 
+// Start : 42%
 @keyframes animate-pickle-2 {
   0% {
     transform: scale(0) translate(100px, 50px) rotate(15deg);
@@ -54,6 +125,7 @@
   }
 }
 
+// Start : 36%
 @keyframes animate-pickle-1 {
   0% {
     transform: scale(0) translate(30px, 50px) rotate(-10deg);
@@ -72,6 +144,7 @@
   }
 }
 
+// Start : 30%
 @keyframes animate-tomato-2 {
   0% {
     transform: scale(0) translate(20px, 50px) rotate(-10deg);
@@ -90,6 +163,7 @@
   }
 }
 
+// Start : 24%
 @keyframes animate-tomato-1 {
   0% {
     transform: scale(0) translate(90px, 55px);
@@ -108,6 +182,7 @@
   }
 }
 
+// Start : 18%
 @keyframes animate-cheese-1 {
   0% {
     transform: scale(0) skewx(-20deg) translate(50px, 55px);
@@ -126,6 +201,7 @@
   }
 }
 
+// Start : 17%
 @keyframes animate-cheese-2 {
   0% {
     transform: scale(0) skewx(20deg) translate(40px, 65px) rotate(-10deg);
@@ -144,6 +220,7 @@
   }
 }
 
+// Start : 6%
 @keyframes animate-beef {
   0% {
     transform: scale(0) translate(0px, 55px);
@@ -162,6 +239,7 @@
   }
 }
 
+// Start : 0%
 @keyframes animate-bottom-bun {
   0% {
     transform: scale(0) translate(5px, 85px);

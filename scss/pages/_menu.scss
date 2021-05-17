@@ -16,59 +16,6 @@
     align-items: center;
     justify-content: space-between;
   }
-
-  &__btn {
-    height: 2rem;
-    width: 2rem;
-    padding: 0;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    cursor: pointer;
-    position: relative;
-    background-color: $colour-bg-darker;
-
-    &:hover:before {
-      opacity: 1;
-    }
-
-    &:before {
-      transition: ease-in-out;
-      transition-duration: .35s;
-      opacity: 0;
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      background:linear-gradient(0deg, $colour-primary 0%,$colour-secondary 100%);
-    }
-  }
-
-  &__like {
-    background-color: $colour-bg-light;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    mix-blend-mode: lighten;
-  }
-
-  &__btn:hover {
-    .menu__like {
-      &--bg {
-        background-color: $colour-bg-light;
-      }
-      &--noBg {
-        opacity: 0;
-      }
-    }
-  }
 }
 
 .menus {
@@ -166,39 +113,5 @@
   padding: 50px 0 50px 0;
 }
 
-.heart-btn {
-  height: 2rem;
-  width: 2rem;
-  background-color: $colour-bg-darker;
-  border: transparent 0px solid;
-  padding: 0;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  cursor: pointer;
-  position: relative;
 
-  &:hover::before {
-    opacity: 1;
-  }
-
-  &::before {
-    opacity: 0;
-    transition: 0.5s;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background:linear-gradient(0deg, $colour-primary 0%,$colour-secondary 100%);
-  }
-  &__like {
-    transition-duration: .25s;
-    background-color: $colour-bg-light;
-    height: 100%;
-    width: 100%;
-    mix-blend-mode: lighten;
-  }
-}
 

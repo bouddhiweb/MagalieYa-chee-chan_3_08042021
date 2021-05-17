@@ -6,6 +6,10 @@ Troisième projet du parcours "Développeur web" chez OpenClassroom. L'objectif 
 
 > [Voir les maquettes du site](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/DW_P3/Maquettes%20Ohmyfood.zip)
 
+> [Voir la validation W3C du CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbouddhiweb.github.io%2FMagalieYa-chee-chan_3_08042021%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=fr)
+
+> [Voir la validation W3C du HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbouddhiweb.github.io%2FMagalieYa-chee-chan_3_08042021%2F)
+
 
 
 ## Objectifs
